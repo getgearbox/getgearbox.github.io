@@ -46,7 +46,7 @@
 <h3>
 <a name="how" class="anchor" href="#how"><span class="octicon octicon-link"></span></a>How</h3>
 
-<p>You create an API that describes resources which have states.  When a user creates, updates or deletes that resource a job is inserted to be asynchronously processed by a worker (the part you write) and a status object is returned to the caller.  The status object tracks the progress of that job so the caller can know when the resources is created, updated or deleted.  Reads are also jobs worked on workers, but they are synchronous and don't use a status object.</p>
+<p>You create an API that describes resources which have states.  When a user creates, updates or deletes a resource a job is inserted to be asynchronously processed by a worker (the part you write) and a status object is returned to the caller.  The status object tracks the progress of that job so the caller can know when the resources is created, updated or deleted.  Reads are also jobs worked on workers, but they are synchronous and don't use a status object.</p>
 
 <h3>
 <a name="features" class="anchor" href="#features"><span class="octicon octicon-link"></span></a>Features</h3>
